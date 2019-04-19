@@ -1,0 +1,20 @@
+package $packageName_.act
+
+import $packageName_.contract.$moduleName_Contract
+import $packageName_.presenter.$moduleName_Presenter
+import mvp.ljb.kt.act.BaseMvpAppCompatActivity
+
+/**
+ * @Author:$author_
+ * @Date:$date_
+ * @Description $des_
+ **/
+class $moduleName_Activity : BaseMvpAppCompatActivity<$moduleName_Contract.IPresenter>() , $moduleName_Contract.IView {
+
+    override fun registerPresenter() = $moduleName_Presenter::class.java
+
+    override fun getLayoutId(): Int {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+}

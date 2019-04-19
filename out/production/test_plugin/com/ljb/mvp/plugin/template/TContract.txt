@@ -1,0 +1,16 @@
+package $packageName_.contract
+
+import mvp.ljb.kt.contract.IPresenterContract
+import mvp.ljb.kt.contract.IViewContract
+
+/**
+ * @Author:$author_
+ * @Date:$date_
+ * @Description $des_
+ **/
+interface $moduleName_Contract {
+
+    interface IView : IViewContract
+
+    interface IPresenter : IPresenterContract
+}

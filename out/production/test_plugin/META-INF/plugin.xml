@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>com.ljb.mvp.plugin</id>
+    <name>Kotlin MVP Plugin</name>
+    <version>1.0</version>
+    <vendor email="cn_ljb@sina.cn" url="https://github.com/cn-ljb">YourCompany</vendor>
+
+    <description><![CDATA[
+     mvp code generator<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      V0.0.1<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="actionAct" class="com.ljb.mvp.plugin.menu.ActionAct" text="New MvpActivity"
+                description="create MvpActivity sub class">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
+        </action>
+    </actions>
+
+</idea-plugin>

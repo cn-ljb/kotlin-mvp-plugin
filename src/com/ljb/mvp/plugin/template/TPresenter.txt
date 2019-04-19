@@ -1,0 +1,11 @@
+package $packageName_.presenter
+
+import $packageName_.contract.$moduleName_Contract
+import mvp.ljb.kt.presenter.BaseMvpPresenter
+
+/**
+ * @Author:$author_
+ * @Date:$date_
+ * @Description $des_
+ **/
+class $moduleName_Presenter : BaseMvpPresenter<$moduleName_Contract.IView>(), $moduleName_Contract.IPresenter

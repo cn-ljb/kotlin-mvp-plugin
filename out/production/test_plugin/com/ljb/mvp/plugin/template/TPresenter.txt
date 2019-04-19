@@ -1,0 +1,11 @@
+package $packageName_.presenter
+
+import $packageName_.contract.$moduleName_Contract
+import mvp.ljb.kt.presenter.BaseMvpPresenter
+
+/**
+ * Author:Ljb
+ * Time:2019/4/18
+ * There is a lot of misery in life
+ **/
+class $moduleName_Presenter : BaseMvpPresenter<$moduleName_Contract.IView>(), $moduleName_Contract.IPresenter

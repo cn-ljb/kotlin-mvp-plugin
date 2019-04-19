@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.ljb.mvp.plugin</id>
+    <name>Kotlin MVP Plugin</name>
+    <version>1.0</version>
+    <vendor email="cn_ljb@sina.cn" url="https://github.com/cn-ljb">Ljb</vendor>
+
+    <description><![CDATA[
+     mvp code generator<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      V0.0.1<br>
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="173.0"/>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="actionAct" class="com.ljb.mvp.plugin.menu.ActionAct" text="New MVP"
+                description="create mvp class">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
+        </action>
+    </actions>
+
+</idea-plugin>
