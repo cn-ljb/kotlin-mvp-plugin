@@ -5,8 +5,8 @@ import $packageName_.presenter.$moduleName_Presenter
 import mvp.ljb.kt.fragment.BaseMvpFragment
 
 /**
- * @Author:$author_
- * @Date:$date_
+ * @Author $author_
+ * @Date $date_
  * @Description $des_
  **/
 class $moduleName_Fragment : BaseMvpFragment<$moduleName_Contract.IPresenter>(), $moduleName_Contract.IView {

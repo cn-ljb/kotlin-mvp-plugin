@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
+import com.ljb.mvp.plugin.utils.DateUtils;
 import com.ljb.mvp.plugin.utils.FileUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -15,11 +16,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.InputStream;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
-public class ActionAct extends AnAction {
-
+public class ActionAutoJava extends AnAction {
     private Project project;
     private String packageName;
     private String moduleName;
@@ -57,43 +55,42 @@ public class ActionAct extends AnAction {
     private void createMvpAppCompatActivity() {
         String appPath = getAppPath();
         //创建Act
-        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TMvpAppCompatActivity.txt");
+        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TMvpAppCompatActivityJava.txt");
         String tActContent = FileUtils.readTemplateFile(tMvpActInput);
         String actDir = appPath + "/act";
-        String actFileName = moduleName + "Activity.kt";
+        String actFileName = moduleName + "Activity.java";
         //创建Contract
-        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TContract.txt");
+        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TContractJava.txt");
         String tContractContent = FileUtils.readTemplateFile(tContractInput);
         String contractDir = appPath + "/contract";
-        String contractFileName = moduleName + "Contract.kt";
+        String contractFileName = moduleName + "Contract.java";
         //创建Presenter
-        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TPresenter.txt");
+        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TPresenterJava.txt");
         String tPresenterContent = FileUtils.readTemplateFile(tPresenterInput);
         String presenterDir = appPath + "/presenter";
-        String presenterFileName = moduleName + "Presenter.kt";
-
+        String presenterFileName = moduleName + "Presenter.java";
         actFileCreate(tActContent, actDir, actFileName, tContractContent, contractDir, contractFileName, tPresenterContent, presenterDir, presenterFileName);
     }
 
     private void createMvpFragmentActivity() {
         String appPath = getAppPath();
         //创建Act
-        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TMvpFragmentActivity.txt");
+        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TMvpFragmentActivityJava.txt");
         String tActContent = FileUtils.readTemplateFile(tMvpActInput);
         String actDir = appPath + "/act";
-        String actFileName = moduleName + "Activity.kt";
+        String actFileName = moduleName + "Activity.java";
 
         //创建Contract
-        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TContract.txt");
+        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TContractJava.txt");
         String tContractContent = FileUtils.readTemplateFile(tContractInput);
         String contractDir = appPath + "/contract";
-        String contractFileName = moduleName + "Contract.kt";
+        String contractFileName = moduleName + "Contract.java";
 
         //创建Presenter
-        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TPresenter.txt");
+        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TPresenterJava.txt");
         String tPresenterContent = FileUtils.readTemplateFile(tPresenterInput);
         String presenterDir = appPath + "/presenter";
-        String presenterFileName = moduleName + "Presenter.kt";
+        String presenterFileName = moduleName + "Presenter.java";
 
         actFileCreate(tActContent, actDir, actFileName, tContractContent, contractDir, contractFileName, tPresenterContent, presenterDir, presenterFileName);
     }
@@ -102,22 +99,22 @@ public class ActionAct extends AnAction {
     private void createMvpActivity() {
         String appPath = getAppPath();
         //创建Act
-        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TMvpActivity.txt");
+        InputStream tMvpActInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TMvpActivityJava.txt");
         String tActContent = FileUtils.readTemplateFile(tMvpActInput);
         String actDir = appPath + "/act";
-        String actFileName = moduleName + "Activity.kt";
+        String actFileName = moduleName + "Activity.java";
 
         //创建Contract
-        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TContract.txt");
+        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TContractJava.txt");
         String tContractContent = FileUtils.readTemplateFile(tContractInput);
         String contractDir = appPath + "/contract";
-        String contractFileName = moduleName + "Contract.kt";
+        String contractFileName = moduleName + "Contract.java";
 
         //创建Presenter
-        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TPresenter.txt");
+        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TPresenterJava.txt");
         String tPresenterContent = FileUtils.readTemplateFile(tPresenterInput);
         String presenterDir = appPath + "/presenter";
-        String presenterFileName = moduleName + "Presenter.kt";
+        String presenterFileName = moduleName + "Presenter.java";
 
         actFileCreate(tActContent, actDir, actFileName, tContractContent, contractDir, contractFileName, tPresenterContent, presenterDir, presenterFileName);
     }
@@ -125,25 +122,24 @@ public class ActionAct extends AnAction {
     private void createMvpFragment() {
         String appPath = getAppPath();
         //创建Fragment
-        InputStream tFragmentInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TMvpFragment.txt");
+        InputStream tFragmentInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TMvpFragmentJava.txt");
         String tFragmentContent = FileUtils.readTemplateFile(tFragmentInput);
         String fragmentDir = appPath + "/fragment";
-        String fragmentFileName = moduleName + "Fragment.kt";
+        String fragmentFileName = moduleName + "Fragment.java";
 
         //创建Contract
-        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TContract.txt");
+        InputStream tContractInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TContractJava.txt");
         String tContractContent = FileUtils.readTemplateFile(tContractInput);
         String contractDir = appPath + "/contract";
-        String contractFileName = moduleName + "Contract.kt";
+        String contractFileName = moduleName + "Contract.java";
 
         //创建Presenter
-        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/TPresenter.txt");
+        InputStream tPresenterInput = this.getClass().getResourceAsStream("/com/ljb/mvp/plugin/template/java/TPresenterJava.txt");
         String tPresenterContent = FileUtils.readTemplateFile(tPresenterInput);
         String presenterDir = appPath + "/presenter";
-        String presenterFileName = moduleName + "Presenter.kt";
+        String presenterFileName = moduleName + "Presenter.java";
 
         fragmentFileCreate(tFragmentContent, fragmentDir, fragmentFileName, tContractContent, contractDir, contractFileName, tPresenterContent, presenterDir, presenterFileName);
-
     }
 
     private void fragmentFileCreate(String tFragmentContent, String fragmentDir, String fragmentFileName, String tContractContent, String contractDir, String contractFileName, String tPresenterContent, String presenterDir, String presenterFileName) {
@@ -180,9 +176,8 @@ public class ActionAct extends AnAction {
         return true;
     }
 
-
     private void createFile(String tContent, String dir, String fileName) {
-        String fillContent = FileUtils.fillTemplateContent(tContent, moduleName, packageName, getDate());
+        String fillContent = FileUtils.fillTemplateContent(tContent, moduleName, packageName, DateUtils.getCurDate());
         FileUtils.writeToFile(fillContent, dir, fileName);
     }
 
@@ -191,12 +186,6 @@ public class ActionAct extends AnAction {
         String packagePath = packageName.replace(".", "/");
         return project.getBasePath() + "/App/src/main/java/" + packagePath + "/";
     }
-
-
-    private String getDate() {
-        return new SimpleDateFormat("yyyy/MM/dd").format(new Date());
-    }
-
 
     private String getPackageName() {
         String package_name = "";

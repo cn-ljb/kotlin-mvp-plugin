@@ -5,8 +5,8 @@ import $packageName_.presenter.$moduleName_Presenter
 import mvp.ljb.kt.act.BaseMvpActivity
 
 /**
- * @Author:$author_
- * @Date:$date_
+ * @Author $author_
+ * @Date $date_
  * @Description $des_
  **/
 class $moduleName_Activity : BaseMvpActivity<$moduleName_Contract.IPresenter>() , $moduleName_Contract.IView {

@@ -1,17 +1,19 @@
 <idea-plugin>
     <id>com.ljb.mvp.plugin</id>
-    <name>Kotlin MVP Plugin</name>
-    <version>1.0</version>
+    <name>Kotlin MVP Auto</name>
+    <version>1.0.2</version>
     <vendor email="cn_ljb@sina.cn" url="https://github.com/cn-ljb">Ljb</vendor>
 
-    <description><![CDATA[
-     mvp code generator<br>
-    ]]></description>
+    <description>
+        kotlin mvp code generator.
+        work with MVPKotlin to build an efficient Android MVP framework.
+        GitHub: https://github.com/cn-ljb/mvp-kotlin
+    </description>
 
-    <change-notes><![CDATA[
-      V0.0.1<br>
-    ]]>
+    <change-notes>
+        support for generating Java code
     </change-notes>
+
 
     <idea-version since-build="173.0"/>
 
@@ -21,9 +23,13 @@
     </extensions>
 
     <actions>
-        <action id="actionAct" class="com.ljb.mvp.plugin.menu.ActionAct" text="New MVP"
-                description="create mvp class">
+        <action id="ActionAutoKt" class="com.ljb.mvp.plugin.menu.ActionAutoKt" text="New MVP Kotlin"
+                description="auto ktlin mvp code">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
+        </action>
+        <action id="ActionAutoJava" class="com.ljb.mvp.plugin.menu.ActionAutoJava" text="New MVP Java"
+                description="auto java mvp code">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="ActionAutoKt"/>
         </action>
     </actions>
 

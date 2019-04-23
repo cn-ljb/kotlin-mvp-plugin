@@ -1,0 +1,27 @@
+package $packageName_.act;
+
+import $packageName_.contract.$moduleName_Contract;
+import $packageName_.presenter.$moduleName_Presenter;
+
+import org.jetbrains.annotations.NotNull;
+
+import mvp.ljb.kt.act.BaseMvpActivity;
+
+/**
+ * @Author $author_
+ * @Date $date_
+ * @Description $des_
+ **/
+public class $moduleName_Activity extends BaseMvpActivity<$moduleName_Contract.IPresenter> implements $moduleName_Contract.IView {
+
+    @Override
+    protected int getLayoutId() {
+        return 0;
+    }
+
+    @NotNull
+    @Override
+    public Class<? extends $moduleName_Contract.IPresenter> registerPresenter() {
+        return $moduleName_Presenter.class;
+    }
+}
