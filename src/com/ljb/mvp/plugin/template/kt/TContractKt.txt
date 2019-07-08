@@ -2,6 +2,7 @@ package $packageName_.contract
 
 import mvp.ljb.kt.contract.IPresenterContract
 import mvp.ljb.kt.contract.IViewContract
+import mvp.ljb.kt.contract.IModelContract
 
 /**
  * @Author $author_
@@ -13,4 +14,6 @@ interface $moduleName_Contract {
     interface IView : IViewContract
 
     interface IPresenter : IPresenterContract
+
+    interface IModel : IModelContract
 }

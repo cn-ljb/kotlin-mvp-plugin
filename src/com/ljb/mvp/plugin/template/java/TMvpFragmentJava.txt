@@ -1,4 +1,4 @@
-package $packageName_.fragment;
+package $packageName_.view.fragment;
 
 import $packageName_.contract.$moduleName_Contract;
 import $packageName_.presenter.$moduleName_Presenter;

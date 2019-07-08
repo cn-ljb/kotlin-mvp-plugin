@@ -1,5 +1,6 @@
 package $packageName_.contract;
 
+import mvp.ljb.kt.contract.IModelContract;
 import mvp.ljb.kt.contract.IPresenterContract;
 import mvp.ljb.kt.contract.IViewContract;
 
@@ -15,6 +16,10 @@ public interface $moduleName_Contract {
     }
 
     interface IPresenter extends IPresenterContract {
+
+    }
+
+    interface IModel extends IModelContract {
 
     }
 

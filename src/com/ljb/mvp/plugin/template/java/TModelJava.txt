@@ -1,0 +1,13 @@
+package $packageName_.model;
+
+import $packageName_.contract.$moduleName_Contract;
+import mvp.ljb.kt.model.BaseModel;
+
+/**
+ * @Author $author_
+ * @Date $date_
+ * @Description $des_
+ **/
+public class $moduleName_Model extends BaseModel implements $moduleName_Contract.IModel {
+
+}

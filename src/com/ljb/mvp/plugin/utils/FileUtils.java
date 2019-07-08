@@ -1,5 +1,10 @@
 package com.ljb.mvp.plugin.utils;
 
+import com.intellij.ide.IdeView;
+import com.intellij.openapi.actionSystem.AnActionEvent;
+import com.intellij.openapi.actionSystem.LangDataKeys;
+import com.intellij.psi.PsiDirectory;
+
 import java.io.*;
 
 public class FileUtils {
@@ -72,4 +77,28 @@ public class FileUtils {
         return outputStream.toByteArray();
     }
 
+    /**
+     * 当前鼠标光标所在位置
+     */
+    public static String getCursorPath(AnActionEvent event) {
+        String cursorPath = "";
+        IdeView ideView = event.getRequiredData(LangDataKeys.IDE_VIEW);
+        PsiDirectory directory = ideView.getOrChooseDirectory();
+        if (directory != null) {
+            cursorPath = directory.toString();
+            if (cursorPath.startsWith("PsiDirectory:")) {
+                cursorPath = cursorPath.substring("PsiDirectory:".length());
+            }
+        }
+        return cursorPath;
+    }
+
+    public static String checkPath(String path) {
+        //考虑开发者习惯在act目录和fragment创建类，进行目录矫正
+        if (path.contains("view") && (path.endsWith("act") || path.endsWith("fragment"))) {
+            int viewPathIndex = path.indexOf(File.separator + "view");
+            path = path.substring(0, viewPathIndex);
+        }
+        return path;
+    }
 }

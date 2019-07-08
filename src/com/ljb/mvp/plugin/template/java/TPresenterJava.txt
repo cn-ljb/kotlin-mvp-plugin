@@ -1,6 +1,9 @@
 package $packageName_.presenter;
 
 import $packageName_.contract.$moduleName_Contract;
+import $packageName_.model.$moduleName_Model;
+
+import org.jetbrains.annotations.NotNull;
 
 import mvp.ljb.kt.presenter.BaseMvpPresenter;
 
@@ -9,6 +12,11 @@ import mvp.ljb.kt.presenter.BaseMvpPresenter;
  * @Date $date_
  * @Description $des_
  **/
-public class $moduleName_Presenter extends BaseMvpPresenter<$moduleName_Contract.IView> implements $moduleName_Contract.IPresenter {
+public class $moduleName_Presenter extends BaseMvpPresenter<$moduleName_Contract.IView, $moduleName_Contract.IModel> implements $moduleName_Contract.IPresenter {
 
+    @NotNull
+    @Override
+    public Class<? extends $moduleName_Contract.IModel> registerModel() {
+        return $moduleName_Model.class;
+    }
 }

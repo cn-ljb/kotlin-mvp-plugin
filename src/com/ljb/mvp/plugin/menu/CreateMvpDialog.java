@@ -91,7 +91,7 @@ public class CreateMvpDialog extends JDialog {
         System.exit(0);
     }
 
-    interface CreateCallBack {
+   public interface CreateCallBack {
         void onCall(String name, TemplateEnum type);
     }
 }

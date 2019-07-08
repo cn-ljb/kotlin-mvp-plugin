@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.ljb.mvp.plugin</id>
     <name>Kotlin MVP Auto</name>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <vendor email="cn_ljb@sina.cn" url="https://github.com/cn-ljb">Ljb</vendor>
 
     <description>
@@ -11,7 +11,9 @@
     </description>
 
     <change-notes>
-        support for generating Java code
+        support for auto generating Kotlin code
+        support for auto generating Java code
+        detailed description : https://github.com/cn-ljb/mvp-kotlin
     </change-notes>
 
 
@@ -23,11 +25,11 @@
     </extensions>
 
     <actions>
-        <action id="ActionAutoKt" class="com.ljb.mvp.plugin.menu.ActionAutoKt" text="New MVP Kotlin"
+        <action id="ActionAutoKt" class="com.ljb.mvp.plugin.menu.AutoKtAction" text="New MVP Kotlin"
                 description="auto ktlin mvp code">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="WeighingNewGroup"/>
         </action>
-        <action id="ActionAutoJava" class="com.ljb.mvp.plugin.menu.ActionAutoJava" text="New MVP Java"
+        <action id="ActionAutoJava" class="com.ljb.mvp.plugin.menu.AutoJavaAction" text="New MVP Java"
                 description="auto java mvp code">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="ActionAutoKt"/>
         </action>

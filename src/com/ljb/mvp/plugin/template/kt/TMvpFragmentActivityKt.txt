@@ -1,4 +1,4 @@
-package $packageName_.act
+package $packageName_.view.act
 
 import $packageName_.contract.$moduleName_Contract
 import $packageName_.presenter.$moduleName_Presenter
