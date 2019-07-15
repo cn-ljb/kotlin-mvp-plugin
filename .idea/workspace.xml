@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44e19d4-40ee-4d2e-b06a-49934152246c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoJavaAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoKtAction.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/kotlin_mvp_plugin.jar" afterPath="$PROJECT_DIR$/kotlin_mvp_plugin.jar" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/TemplateEnum.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/TemplateEnum.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/ActionAutoJava$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/ActionAutoJava.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/ActionAutoKt$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/ActionAutoKt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/CreateMvpDialog$CreateCallBack.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/CreateMvpDialog$CreateCallBack.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/CreateMvpDialog.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/CreateMvpDialog.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TContractJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TContractJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpActivityJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpAppCompatActivityJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpAppCompatActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpFragmentActivityJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpFragmentActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpFragmentJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TMvpFragmentJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TPresenterJava.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/java/TPresenterJava.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TContractKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TContractKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpActivityKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpAppCompatActivityKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpAppCompatActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpFragmentActivityKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpFragmentActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpFragmentKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TMvpFragmentKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/utils/FileUtils.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/utils/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/utils/PackageManager.class" afterPath="$PROJECT_DIR$/out/production/kotlin_mvp_plugin/com/ljb/mvp/plugin/utils/PackageManager.class" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/TemplateEnum.java" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/TemplateEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/ActionAutoJava.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/ActionAutoKt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/CreateMvpDialog.java" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/CreateMvpDialog.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TContractJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TContractJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpActivityJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpAppCompatActivityJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpAppCompatActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpFragmentActivityJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpFragmentActivityJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpFragmentJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TMvpFragmentJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TPresenterJava.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TPresenterJava.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TContractKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TContractKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpActivityKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpAppCompatActivityKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpAppCompatActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpFragmentActivityKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpFragmentActivityKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpFragmentKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TMvpFragmentKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt" />
-      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java" afterPath="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,6 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoJavaAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoJavaAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="66" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseAutoCodeAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PackageManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="kotlin_mvp_plugin.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlin_mvp_plugin.iml">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,11 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk/jdk1.8.0_77/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="40725">
+              <caret line="1696" column="15" lean-forward="false" selection-start-line="1696" selection-start-column="15" selection-end-line="1696" selection-end-column="15" />
+              <folding>
+                <element signature="e#66457#66458#0" expanded="true" />
+                <element signature="e#66495#66496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -167,12 +185,12 @@
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoKtAction.java" />
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoJavaAction.java" />
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java" />
-        <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TModelJava.txt" />
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TModelKt.txt" />
         <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt" />
+        <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java" />
+        <option value="$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -189,9 +207,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-175" />
-    <option name="y" value="56" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="31" />
+    <option name="y" value="14" />
     <option name="width" value="1382" />
     <option name="height" value="750" />
   </component>
@@ -213,6 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,55 +252,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin_mvp_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_mvp_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="kt" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,12 +468,16 @@
       <workItem from="1562288052376" duration="13438000" />
       <workItem from="1562378758312" duration="6262000" />
       <workItem from="1562555320142" duration="682000" />
-      <workItem from="1562572352233" duration="1360000" />
+      <workItem from="1562572352233" duration="3076000" />
+      <workItem from="1562807682949" duration="1520000" />
+      <workItem from="1562833727339" duration="55000" />
+      <workItem from="1563166919696" duration="4669000" />
+      <workItem from="1563180315013" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72718000" />
+    <option name="totallyTimeSpent" value="81570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,7 +489,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,19 +500,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41341653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13416536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -561,18 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/CreateMvpDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -746,10 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +781,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoKtAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TModelJava.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TModelKt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TPresenterJava.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/CreateMvpDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="365">
           <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -828,75 +828,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoKtAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoJavaAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="1100">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="66" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/AutoJavaAction.java">
+    <entry file="jar://D:/Java/jdk/jdk1.8.0_77/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-784">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="40725">
+          <caret line="1696" column="15" lean-forward="false" selection-start-line="1696" selection-start-column="15" selection-end-line="1696" selection-end-column="15" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2450">
-          <caret line="103" column="1" lean-forward="false" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TModelJava.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TModelKt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/kt/TPresenterKt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/template/java/TPresenterJava.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="2250">
+          <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/menu/base/BaseAutoCodeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ljb/mvp/plugin/utils/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -910,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>

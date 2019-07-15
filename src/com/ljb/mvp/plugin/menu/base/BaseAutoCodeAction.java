@@ -29,7 +29,7 @@ public abstract class BaseAutoCodeAction extends AnAction {
         project = event.getData(PlatformDataKeys.PROJECT);
         idePath = FileUtils.getCursorPath(event);
         idePath = FileUtils.checkPath(idePath);
-        pathPackageName = PackageManager.getPathPackageName(PackageManager.getAppPackageName(project), idePath);
+        pathPackageName = PackageManager.getPathPackageName(idePath);
         if (TextUtils.isEmpty(pathPackageName)) {
             Messages.showMessageDialog(project, "dir is error!", "Error", Messages.getErrorIcon());
             return;

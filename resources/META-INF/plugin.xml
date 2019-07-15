@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.ljb.mvp.plugin</id>
     <name>Kotlin MVP Auto</name>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <vendor email="cn_ljb@sina.cn" url="https://github.com/cn-ljb">Ljb</vendor>
 
     <description>
@@ -11,8 +11,12 @@
     </description>
 
     <change-notes>
-        support for auto generating Kotlin code
-        support for auto generating Java code
+        support other package name.
+
+        support for auto generating Kotlin code.
+
+        support for auto generating Java code.
+
         detailed description : https://github.com/cn-ljb/mvp-kotlin
     </change-notes>
 
